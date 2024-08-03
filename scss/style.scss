@@ -1,0 +1,24 @@
+:root {
+    --font-primary: "Poppins";
+    --light-primary: #ebeced;
+    --light-secondary: #ebeced;
+    --dark-primary: #0d0d1f;
+    --dark-secondary: #0d0d1f;
+    --accident-primary: #465c5c;
+    --accident-secondary: #465c5c;
+}
+
+@import "_fonts";
+@import "_outline";
+@import "_scrollbar";
+@import "_title";
+@import "_desc";
+@import "_btn";
+@import "_section";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
