@@ -1,0 +1,32 @@
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--large {
+        width: 32px;
+        min-width: 32px;
+        max-width: 32px;
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+        object-fit: contain;
+    }
+    &--normal {
+        width: 24px;
+        min-width: 24px;
+        max-width: 24px;
+        height: 24px;
+        min-height: 24px;
+        max-height: 24px;
+        object-fit: contain;
+    }
+    &--small {
+        width: 16px;
+        min-width: 16px;
+        max-width: 16px;
+        height: 16px;
+        min-height: 16px;
+        max-height: 16px;
+        object-fit: contain;
+    }
+}

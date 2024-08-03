@@ -1,11 +1,11 @@
 :root {
     --font-primary: "Poppins";
-    --light-primary: #ebeced;
-    --light-secondary: #ebeced;
-    --dark-primary: #0d0d1f;
-    --dark-secondary: #0d0d1f;
-    --accident-primary: #465c5c;
-    --accident-secondary: #465c5c;
+    --light-primary: #ffffff;
+    --dark-primary: #151517;
+    --dark-secondary: #2F2F2F;
+    --mediun-primary: #828282;
+    --medium-secondary: #676767;
+    --accident-primary: #EEBF63;
 }
 
 @import "_fonts";
@@ -14,11 +14,17 @@
 @import "_title";
 @import "_desc";
 @import "_btn";
+@import "_img";
+@import "_icon";
+@import "_logo";
 @import "_section";
+@import "_nav";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
     font-family: var(--font-primary);
 }

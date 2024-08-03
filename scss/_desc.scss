@@ -1,6 +1,6 @@
 .desc {
     &--large {
-        font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
     &--normal {
         font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1440 - 320)));
@@ -12,16 +12,13 @@
         color: var(--light-primary);
     }
     &--dark {
-        color: var(--dark-secondary);
+        color: var(--dark-primary);
     }
     &--middle {
-        color: var(--middle-secondary);
+        color: var(--middle-primary);
     }
     &--color {
-        color: var(--accedent-primary);
-    }
-    &--error {
-        color: red;
+        color: var(--accident-primary);
     }
     &--thin {
         font-weight: 300;
@@ -43,8 +40,5 @@
     }
     &--center {
         text-align: center;
-    }
-    &--opacity {
-        opacity: .5;
     }
 }

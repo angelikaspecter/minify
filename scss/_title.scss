@@ -1,24 +1,24 @@
 .title {
-    &--section {
-        font-size: calc(24px + (34 - 24) * ((100vw - 320px) / (1440 - 320)));
-        font-weight: bold;
+    &--primary {
+        font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1440 - 320)));
     }
-    &--sub {
-        font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1440 - 320)));
-        font-weight: 500;
-        text-transform: uppercase;
+    &--secondary {
+        font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1440 - 320)));
+    }
+    &--thidly {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1440 - 320)));
     }
     &--light {
         color: var(--light-primary);
     }
     &--dark {
-        color: var(--dark-secondary);
+        color: var(--dark-primary);
     }
     &--middle {
-        color: var(--middle-secondary);
+        color: var(--middle-primary);
     }
     &--color {
-        color: var(--accedent-primary);
+        color: var(--accident-primary);
     }
     &--thin {
         font-weight: 300;
