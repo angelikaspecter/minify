@@ -4,6 +4,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+        z-index: 9999999;
         @media screen and (min-width: 1440px) {
             padding: 20px 200px;
         }
@@ -30,34 +32,27 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         @media screen and (min-width: 1440px) {
-            padding: 100px 200px;
-            gap: 40px;
+            padding: 40px 200px;
         }
         @media screen and (min-width: 1280px) and (max-width: 1439.98px) {
-            padding: 100px 150px;
-            gap: 30px;
+            padding: 40px 150px;
         }
         @media screen and (min-width: 992px) and (max-width: 1279.98px) {
-            padding: 75px 100px;
-            gap: 30px;
+            padding: 40px 100px;
         }
         @media screen and (min-width: 768px) and (max-width: 991.98px) {
-            padding: 50px 50px;
-            gap: 20px;
+            padding: 40px 50px;
         }
         @media screen and (min-width: 465px) and (max-width: 767.98px) {
             padding: 40px 40px;
-            gap: 20px;
         }
         @media screen and (min-width: 375px) and (max-width: 464.98px) {
             padding: 40px 20px;
-            gap: 20px;
         }
         @media screen and (max-width: 374.98px) {
             padding: 40px 20px;
-            gap: 20px;
         }
     }
     &--content {
@@ -109,12 +104,17 @@
         }
         @media screen and (min-width: 465px) and (max-width: 767.98px) {
             padding: 20px 40px;
+            & a.btn {
+                width: 100%;
+            }
         }
         @media screen and (min-width: 375px) and (max-width: 464.98px) {
             padding: 20px 20px;
+            justify-content: center;
         }
         @media screen and (max-width: 374.98px) {
             padding: 20px 20px;
+            justify-content: center;
         }
     }
 }
