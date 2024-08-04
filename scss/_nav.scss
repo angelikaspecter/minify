@@ -5,6 +5,7 @@
     justify-content: space-between;
     gap: 40px;
     position: relative;
+    z-index: 999999;
     &__logo {
         display: flex;
         align-items: center;
@@ -28,6 +29,7 @@
             flex-direction: column;
             gap: 20px;
             box-shadow: 0 0 5px 0 rgba($color: #151517, $alpha: .15);
+            z-index: 9999999;
             &.hide {
                 display: none;
             }

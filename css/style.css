@@ -484,6 +484,7 @@ html {
   justify-content: space-between;
   gap: 40px;
   position: relative;
+  z-index: 999999;
 }
 .nav__logo {
   display: flex;
@@ -510,6 +511,7 @@ html {
     flex-direction: column;
     gap: 20px;
     box-shadow: 0 0 5px 0 rgba(21, 21, 23, 0.15);
+    z-index: 9999999;
   }
   .nav__list.hide {
     display: none;
