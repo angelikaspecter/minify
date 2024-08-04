@@ -8,6 +8,7 @@
         background-color: var(--accident-primary);
         border: 1px solid var(--accident-primary);
         border-radius: 10px;
+        white-space: nowrap;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
         &:hover,
@@ -26,6 +27,7 @@
         background-color: transparent;
         border: 1px solid var(--accident-primary);
         border-radius: 10px;
+        white-space: nowrap;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
         &:hover,
