@@ -50,6 +50,24 @@
         @media screen and (max-width: 374.98px) {
             flex: 1 1 100%;
         }
-        border: 1px solid green;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 65px;
+            width: 245px;
+            height: 180px;
+            background: url(../img/elem_1.svg) no-repeat left bottom / contain;
+            z-index: 0;
+        }
+        & img.img {
+            position: relative;
+            z-index: 222;
+        }
     }
 }
