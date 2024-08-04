@@ -30,6 +30,8 @@
     require ('templates/footer.php')
         ?>
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/hidehref.js"></script>
 </body>
 
 </html>

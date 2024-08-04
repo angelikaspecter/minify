@@ -4,7 +4,6 @@
     --dark-primary: #151517;
     --dark-secondary: #2F2F2F;
     --mediun-primary: #828282;
-    --medium-secondary: #676767;
     --accident-primary: #EEBF63;
 }
 
@@ -19,6 +18,8 @@
 @import "_logo";
 @import "_section";
 @import "_nav";
+@import "_promo";
+@import "_footer";
 
 * {
     margin: 0;

@@ -4,7 +4,6 @@
   --dark-primary: #151517;
   --dark-secondary: #2F2F2F;
   --mediun-primary: #828282;
-  --medium-secondary: #676767;
   --accident-primary: #EEBF63;
 }
 
@@ -156,7 +155,7 @@ html {
   color: var(--light-primary);
 }
 .title--dark {
-  color: var(--dark-primary);
+  color: var(--dark-secondary);
 }
 .title--middle {
   color: var(--middle-primary);
@@ -186,6 +185,9 @@ html {
   text-align: center;
 }
 
+.desc--extralarge {
+  font-size: calc(18px + 6 * (100vw - 320px) / 1120);
+}
 .desc--large {
   font-size: calc(16px + 2 * (100vw - 320px) / 1120);
 }
@@ -393,6 +395,54 @@ html {
     padding: 20px 20px;
   }
 }
+.section--promo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1440px) {
+  .section--promo {
+    padding: 100px 200px;
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .section--promo {
+    padding: 100px 150px;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279.98px) {
+  .section--promo {
+    padding: 75px 100px;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .section--promo {
+    padding: 50px 50px;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 767.98px) {
+  .section--promo {
+    padding: 40px 40px;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 464.98px) {
+  .section--promo {
+    padding: 40px 20px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .section--promo {
+    padding: 40px 20px;
+    gap: 20px;
+  }
+}
 .section--content {
   width: 100%;
   display: flex;
@@ -438,8 +488,10 @@ html {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: var(--medium-secondary);
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: var(--light-primary);
 }
 @media screen and (min-width: 1440px) {
   .section--footer {
@@ -544,6 +596,33 @@ html {
   .nav__btn {
     display: none;
   }
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.footer__item {
+  width: 50px;
+  height: 50px;
+}
+.footer__link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer__link img.icon {
+  transition: all 0.3s ease-in-out;
+}
+.footer__link img.icon:hover, .footer__link img.icon:active, .footer__link img.icon:focus {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 * {

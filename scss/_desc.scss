@@ -1,4 +1,7 @@
 .desc {
+    &--extralarge {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1440 - 320)));
+    }
     &--large {
         font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
