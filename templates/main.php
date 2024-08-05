@@ -14,4 +14,7 @@
     <?php
     require ('cta.php')
     ?>
+    <?php
+    require ('partners.php')
+    ?>
 </main>
