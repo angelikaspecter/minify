@@ -4,7 +4,9 @@
     --dark-primary: #151517;
     --dark-secondary: #2F2F2F;
     --middle-primary: #828282;
+    --middle-secondary: #e9e9e9;
     --accident-primary: #EEBF63;
+    --accident-secondary: #8ED2A9;
 }
 
 @import "_fonts";
@@ -20,6 +22,7 @@
 @import "_nav";
 @import "_promo";
 @import "_social";
+@import "_summary";
 @import "_footer";
 
 * {
