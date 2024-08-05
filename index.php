@@ -39,6 +39,33 @@
         ]
     ];
 
+    $hires = [
+        [
+            'id' => 1,
+            'img' => 'img/img_7.webp',
+            'title' => 'Communicative',
+            'desc' => 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.'
+        ],
+        [
+            'id' => 2,
+            'img' => 'img/img_8.webp',
+            'title' => 'Professional',
+            'desc' => 'Elit id morbi senectus feugiat nulla justo erat aliquam tincidunt.'
+        ],
+        [
+            'id' => 3,
+            'img' => 'img/img_9.webp',
+            'title' => 'Collaborative​',
+            'desc' => 'Feugiat lectus ac dis nullam pellentesque pellentesque turpis cras.'
+        ],
+        [
+            'id' => 4,
+            'img' => 'img/img_10.webp',
+            'title' => 'Client’s Favourite',
+            'desc' => 'Scelerisque auctor ultrices id phasellus integer egestas et malesuada id.'
+        ]
+    ];
+
     if ($page === 'portfolio') {
         $projects = array_reverse($projects);
         $hideButtonClass = 'hide';

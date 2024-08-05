@@ -8,4 +8,7 @@
     <?php
     require ('portfolio.php')
     ?>
+    <?php
+    require ('hire.php')
+    ?>
 </main>

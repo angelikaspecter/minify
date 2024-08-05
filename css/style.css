@@ -1315,7 +1315,7 @@ html {
   border-radius: 30px;
 }
 .card__footer {
-  padding: 20px 0 0;
+  padding: 10px 0 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1329,6 +1329,127 @@ html {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.hire {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1440px) {
+  .hire {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .hire {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279.98px) {
+  .hire {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .hire {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 767.98px) {
+  .hire {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 464.98px) {
+  .hire {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .hire {
+    gap: 20px;
+  }
+}
+.hire__list {
+  width: 100%;
+  display: flex;
+}
+@media screen and (min-width: 1440px) {
+  .hire__list {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .hire__list {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279.98px) {
+  .hire__list {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .hire__list {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 767.98px) {
+  .hire__list {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 464.98px) {
+  .hire__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .hire__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.hire__item {
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .hire__item {
+    flex: 1 1 calc(25% - 40px);
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .hire__item {
+    flex: 1 1 calc(25% - 40px);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279.98px) {
+  .hire__item {
+    flex: 1 1 calc(25% - 20px);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .hire__item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 767.98px) {
+  .hire__item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 464.98px) {
+  .hire__item {
+    flex: 1 1 100%;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .hire__item {
+    flex: 1 1 100%;
+  }
 }
 
 .footer__list {
