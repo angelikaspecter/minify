@@ -5,4 +5,7 @@
     <?php
     require ('summary.php')
     ?>
+    <?php
+    require ('portfolio.php')
+    ?>
 </main>
