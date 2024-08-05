@@ -293,6 +293,40 @@ html {
   transition: all 0.3s ease-in-out;
   transform: scale(1.025);
 }
+.btn--thirdly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background-color: var(--light-primary);
+  border: 1px solid var(--light-primary);
+  border-radius: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn--thirdly:hover, .btn--thirdly:active, .btn--thirdly:focus {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.025);
+}
+.btn--thirdly-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background-color: transparent;
+  border: 1px solid var(--light-primary);
+  border-radius: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn--thirdly-border:hover, .btn--thirdly-border:active, .btn--thirdly-border:focus {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.025);
+}
 .btn--text {
   display: flex;
   align-items: center;
@@ -1449,6 +1483,97 @@ html {
 @media screen and (max-width: 374.98px) {
   .hire__item {
     flex: 1 1 100%;
+  }
+}
+
+.cta__wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 45px;
+  padding: 60px;
+  background-color: var(--accident-primary);
+}
+@media screen and (min-width: 1440px) {
+  .cta__wrap {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439.98px) {
+  .cta__wrap {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279.98px) {
+  .cta__wrap {
+    gap: 20px;
+  }
+  .cta__wrap h2.title {
+    max-width: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .cta__wrap {
+    padding: 40px;
+    gap: 20px;
+  }
+  .cta__wrap h2.title {
+    max-width: 170px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+  .cta__wrap {
+    padding: 40px;
+    gap: 20px;
+  }
+  .cta__wrap h2.title {
+    max-width: 170px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 499.98px) {
+  .cta__wrap {
+    padding: 40px;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .cta__wrap {
+    padding: 30px;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+.cta__btn {
+  display: flex;
+  gap: 40px;
+}
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+  .cta__btn {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 499.98px) {
+  .cta__btn {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cta__btn a.btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 374.98px) {
+  .cta__btn {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cta__btn a.btn {
+    width: 100%;
   }
 }
 

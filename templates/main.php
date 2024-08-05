@@ -11,4 +11,7 @@
     <?php
     require ('hire.php')
     ?>
+    <?php
+    require ('cta.php')
+    ?>
 </main>

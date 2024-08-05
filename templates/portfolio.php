@@ -11,7 +11,7 @@
             <li class="portfolio__item">
                 <div class="card">
                     <header class="card__header">
-                        <img src="<?php echo $project['img']; ?>" width="540" height="380" alt="Minify thumnbnail" class="img">
+                        <img src="<?php echo $project['img']; ?>" width="540" height="380" alt="<?php echo $project['title']; ?> thumnbnail" class="img">
                     </header>
                     <footer class="card__footer">
                         <h3 class="title title--thirdly title--semibold title--dark"><?php echo $project['title']; ?></h3>
