@@ -2,10 +2,17 @@
     <ul class="promo__list">
         <li class="promo__item">
             <header class="promo__header">
-                <p class="desc desc--extralarge desc--medium desc--middle">Hey!</p>
-                <h1 class="title title--primary title--semibold title--dark">I’m <span class="title--color">Ariene
-                        Rey</span>. <br>
-                    an <span class="title--elem">UI/UX Designer</span>.</h1>
+                <div class="promo__header--wrap">
+                    <p class="desc desc--extralarge desc--medium desc--middle">Hey!</p>
+                    <h1 class="title title--primary title--semibold title--dark">I’m <span class="title--color">Ariene
+                            Rey</span>. <br>
+                        an <span class="title--elem">UI/UX Designer</span>.</h1>
+                </div>
+                <div class="promo__header--img">
+                    <div class="promo__img">
+                        <img src="img/img_1.webp" width="553" height="575" alt="Ariene Ray" class="img">
+                    </div>
+                </div>
             </header>
             <div class="promo__content">
                 <p class="desc desc--large desc--regular desc--dark">UX Designer based in Jakarta, Indonesia.

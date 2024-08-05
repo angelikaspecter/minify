@@ -49,10 +49,10 @@
             padding: 40px 40px;
         }
         @media screen and (min-width: 375px) and (max-width: 464.98px) {
-            padding: 40px 20px;
+            padding: 0 20px 40px;
         }
         @media screen and (max-width: 374.98px) {
-            padding: 40px 20px;
+            padding: 0 20px 40px;
         }
     }
     &--content {
