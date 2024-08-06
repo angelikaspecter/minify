@@ -17,4 +17,7 @@
     <?php
     require ('partners.php')
     ?>
+    <?php
+    require ('reviews.php')
+    ?>
 </main>

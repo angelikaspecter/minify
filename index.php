@@ -66,6 +66,87 @@
         ]
     ];
 
+    $reviews = [
+        [
+            'id' => '1',
+            'desc' => 'One of the best additions to our feedback loop has been the company-wide adoption of Fellow.',
+            'avatar' => 'img/user_1.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '4.5',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star-part.svg'
+        ],
+        [
+            'id' => '2',
+            'desc' => 'It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.',
+            'avatar' => 'img/user_2.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '5',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star-fill.svg'
+        ],
+        [
+            'id' => '3',
+            'desc' => 'One of the best additions to our feedback loop has been the company-wide adoption of Fellow.',
+            'avatar' => 'img/user_1.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '4',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star.svg'
+        ],
+        [
+            'id' => '4',
+            'desc' => 'It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.',
+            'avatar' => 'img/user_2.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '4.5',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star-part.svg'
+        ],
+        [
+            'id' => '5',
+            'desc' => 'One of the best additions to our feedback loop has been the company-wide adoption of Fellow.',
+            'avatar' => 'img/user_1.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '4.5',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star-part.svg'
+        ],
+        [
+            'id' => '6',
+            'desc' => 'It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.',
+            'avatar' => 'img/user_2.webp',
+            'name' => 'Ronald Richards',
+            'job' => 'UI/UX Designer',
+            'rate' => '5',
+            '1st' => 'img/star-fill.svg',
+            '2nd' => 'img/star-fill.svg',
+            '3rd' => 'img/star-fill.svg',
+            '4th' => 'img/star-fill.svg',
+            '5th' => 'img/star-fill.svg'
+        ],
+    ];
+
     if ($page === 'portfolio') {
         $projects = array_reverse($projects);
         $hideButtonClass = 'hide';
@@ -93,6 +174,8 @@
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/hidehref.js"></script>
+    <script src="js/expanded-text.js"></script>
+    <script src="js/reviews.js"></script>
 </body>
 
 </html>
